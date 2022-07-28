@@ -1,4 +1,20 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+
+/* universal style  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* banner section  */
+  .drk{
+    position: relative;
+} 
+.drk h1{
+    font-size: 70px;
+}
 .drk:after {
     content: "";
     display: block;
@@ -11,15 +27,11 @@
     opacity: 0.6;
     z-index: 1;
   }
-  
-  .carousel-caption {
+  .carousel-caption{
     z-index: 2;
     position: absolute;
-    /* top: auto;
-    left: auto; */
-     transform: translate(0%, -50%);
-     /* -ms-transform: translateY(50%); */
-  }
-  .drk{
-    position: relative;
+    top: 50;
+    left: 50;
+    transform: translate(0%,-50%);
+     
   }
